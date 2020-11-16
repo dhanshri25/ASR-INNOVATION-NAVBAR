@@ -1,0 +1,88 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  background-image: url(2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 25px;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background: crimson;
+    color: wheat;
+    padding:10px;
+}
+.navbar-main{
+    background: #3bacac;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 30px;
+}
+.logo{
+    font-size: 30px;
+    color: #1d3557;
+}
+.logo-text{
+    font-size: 45px;
+    margin-left: 10px;
+}
+.logo-side{
+   
+}
+.fa-affiliatetheme{
+  font-size: 45px;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ 
+}
+
+li {
+  float: left;
+  padding:5px 20px;
+  border:thin #fff;
+}
+
+li a {
+  display:list-item;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border:1px #F9F5BD transparent;
+  transition:0.8s ease;
+  font-size:large;
+}
+
+li a:hover {
+  background-color:white;
+  color:black;
+  text-decoration:underline;
+}
+.main{
+  font-size: 35px;
+}
+.main li a:hover .sub-menu1{
+	display:block;
+	position:absolute;
+	background-color:white;
+	color:black;
+	margin-top:14px;
+	margin-left:15px;
+}
